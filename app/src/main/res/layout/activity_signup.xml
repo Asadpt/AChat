@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:layout_gravity="left"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/icon_back_apptheme"
+        android:id="@+id/back"/>
+
+    <ImageView
+        android:layout_marginBottom="30dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/logo"/>
+
+    <EditText
+        android:background="@drawable/roundedcorner_rectangle_apptheame"
+        android:padding="12sp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="Name"/>
+
+    <EditText
+        android:background="@drawable/roundedcorner_rectangle_apptheame"
+        android:padding="12sp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailID"
+        android:hint="Email ID"/>
+
+    <EditText
+        android:background="@drawable/roundedcorner_rectangle_apptheame"
+        android:padding="12sp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="Password"/>
+
+    <Button
+        android:background="@drawable/roundedcorner_rectangle_apptheame"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:id="@+id/signup"/>
+
+</LinearLayout>

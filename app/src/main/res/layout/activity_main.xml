@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:layout_margin="20dp"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginBottom="30dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/logo"/>
+
+        <EditText
+            android:padding="12sp"
+            android:background="@drawable/roundedcorner_rectangle_apptheame"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Emailid"
+            android:id="@+id/emailID"/>
+
+        <EditText
+            android:padding="12sp"
+            android:background="@drawable/roundedcorner_rectangle_apptheame"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/password"/>
+
+        <Button
+            android:background="@drawable/roundedcorner_rectangle_apptheame"
+            android:textStyle="bold"
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"/>
+
+    </LinearLayout>
+
+
+
+
+<LinearLayout
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an Account  "/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here.."
+        android:id="@+id/go_to_signup"/>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
